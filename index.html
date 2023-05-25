@@ -25,11 +25,6 @@
       <i class="fa fa-search"></i>
     </a>
   </div>
-  <!-- Navbar on small screens -->
-
-
-
-
 
 <script>
 function onClick(element) {
@@ -59,10 +54,9 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-function toggleDarkLight() {
-  var body = document.getElementById("body");
-  var currentClass = body.className;
-  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
 }
 </script>
 
