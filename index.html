@@ -4,7 +4,8 @@
 <title>Lexionas74</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 t<link rel="icon" href="images/IMG_4473.JPG" type="image/x-icon"/>
 
@@ -63,6 +64,11 @@ function toggleFunction() {
     } else {
         x.className = x.className.replace(" w3-show", "");
     }
+}
+function toggleDarkLight() {
+  var body = document.getElementById("body");
+  var currentClass = body.className;
+  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
 }
 </script>
 
