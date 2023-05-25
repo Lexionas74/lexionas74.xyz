@@ -2,11 +2,26 @@ body, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif;
   }
   
+  body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
   body, html {
     height: 100%;
     color: #4d4d4d;
     line-height: 1.8;
   }
+  
+  /* Rest of your CSS code goes here */
+  
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
