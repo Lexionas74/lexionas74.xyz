@@ -4,7 +4,7 @@ body, h1, h2, h3, h4, h5, h6 {
   
   body, html {
     height: 100%;
-    color: #ff0000;
+    color: #4d4d4d;
     line-height: 1.8;
   }
   
@@ -18,16 +18,6 @@ body, h1, h2, h3, h4, h5, h6 {
   .bgimg-1 {
     background-image: url('/images/IMG_4574.JPG');
     min-height: 100%;
-  }
-  
-  .bgimg-2 {
-    background-image: url("/w3images/parallax2.jpg");
-    min-height: 400px;
-  }
-  
-  .bgimg-3 {
-    background-image: url("/w3images/parallax3.jpg");
-    min-height: 400px;
   }
   
   .w3-wide {
