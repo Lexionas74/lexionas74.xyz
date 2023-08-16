@@ -1,14 +1,8 @@
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif;
   }
-  
-  body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-  }
-  
+
+ 
   .dark-mode {
     background-color: black;
     color: white;
@@ -49,31 +43,11 @@ body, h1, h2, h3, h4, h5, h6 {
       min-height: 400px;
     }
   }
-  body.dark-mode {
-    background-color: #111;
-    color: #eee;
+  body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
   }
-  
-  body.dark-mode a {
-    color: #111;
-  }
-  
-  body.dark-mode button {
-    background-color: #eee;
-    color: #111;
-  }
-  
-  body.light-mode {
-    background-color: #eee;
-    color: #111;
-  }
-  
-  body.light-mode a {
-    color: #111;
-  }
-  
-  body.light-mode button {
-    background-color: #111;
-    color: #eee;
-  }
+
   
