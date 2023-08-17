@@ -96,6 +96,7 @@ h1 {text-align: center;}
   </div>
   </div>
   
+  
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
     <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
@@ -104,6 +105,13 @@ h1 {text-align: center;}
       <p id="caption" class="w3-opacity w3-large"></p>
     </div>
   </div>
-
+<script>
+function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+</script>
 </body>
 </html>
